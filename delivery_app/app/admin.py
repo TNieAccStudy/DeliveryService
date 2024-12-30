@@ -1,7 +1,7 @@
 from flask_admin import Admin
-from config import app,db
+from app import app,db
 from flask_admin.contrib.sqla import ModelView
-from models import Package, BaseUrl
+from app.models import Package, BaseUrl
 import requests
 
 admin = Admin(app=app)

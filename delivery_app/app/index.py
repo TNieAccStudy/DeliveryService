@@ -1,8 +1,7 @@
-from config import app
+from app import app
 from flask import redirect, request
-import admin
-import dao
-from models import PackageState
+from app import dao,admin
+from app.models import PackageState
 
 @app.route("/")
 def load_index():

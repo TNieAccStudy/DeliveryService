@@ -1,4 +1,4 @@
-from config import db,app
+from app import db,app
 from sqlalchemy import INTEGER,FLOAT,String,Column,ForeignKey,BOOLEAN,DATETIME,Enum
 from enum import Enum as EnumClass
 # from flask_login import UserMixin

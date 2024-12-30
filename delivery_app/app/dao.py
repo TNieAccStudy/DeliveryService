@@ -1,5 +1,5 @@
-from config import app,db
-from models import Package
+from app import app,db
+from app.models import Package
 
 def add_package(order_id,state):
     package = Package(order_id=order_id,state=state.name)
