@@ -7,7 +7,7 @@ import secrets
 
 
 app = Flask("Delivery Service")
-db_host="terraform-20250508140112104500000001.ct826iweg6n5.us-east-1.rds.amazonaws.com"
+db_host="terraform-20250508171931084000000001.cpm02wggy33q.us-east-1.rds.amazonaws.com"
 app.config["SQLALCHEMY_DATABASE_URI"] = f"mysql+pymysql://admin:%s@{db_host}/deliverydb" % quote('admin1234')
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
 
